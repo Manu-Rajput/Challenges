@@ -1,0 +1,35 @@
+
+p {
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+	width:15%;
+	margin: 0 auto;
+}
+body {
+	margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.top-container {
+	background-color: #E4F9F5;
+}
+.middle-container {
+	height: 200px;
+	width: 200px;
+}
+.bottom-container {
+	height: 200px;
+	width: 200px;		
+}
+.cloud-1 {
+	/*left: 250px;*/
+}
+.cloud-2 {
+	position: absolute;
+}
+.mountains-bottom {
+	width:400px;
+	height:150px;
+}
