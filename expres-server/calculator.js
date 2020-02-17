@@ -9,7 +9,7 @@ app.post("/", function(req, res){
 	if(req.body) {
 		var num1 = req.body.num1;
 		var num2 = req.body.num2;
-		var result = parseInt(num1 )+ parseInt(num2);
+		var result = Number(num1)+ Number(num2);
 	}
 	res.send("Your calculted result is " + result);
 })
